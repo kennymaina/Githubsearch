@@ -22,19 +22,19 @@ export class GitsearchComponent implements OnInit {
     });
   }
 
-  findUser() {
-    this.gitsearchService.updateUser(this.username);
+  // findUser() {
+  //   this.gitsearchService.updateUser(this.username);
 
-    this.gitsearchService.getUser().subscribe(user => {
+  //   this.gitsearchService.getUser().subscribe(user => {
       
-      this.user = user;
-    });
+  //     this.user = user;
+  //   });
 
-    this.gitsearchService.getRepos().subscribe(repos => {
+  //   this.gitsearchService.getRepos().subscribe(repos => {
       
-      this.repos = repos;
-    });
-  }
+  //     this.repos = repos;
+  //   });
+  // }
 
   ngOnInit() {
   }
