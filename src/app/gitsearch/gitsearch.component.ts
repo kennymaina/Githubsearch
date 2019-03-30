@@ -11,16 +11,16 @@ export class GitsearchComponent implements OnInit {
   repos: any[];
   username: string;
 
-  // constructor(private gitsearchService: GitsearchService) {
-  //   this.gitsearchService.getUser().subscribe(user => {
-  //     console.log(user);
-  //     this.user = user;
-  //   });
-  //   this.gitsearchService.getRepos().subscribe(repos => {
-  //     console.log(repos);
-  //     this.repos = repos;
-  //   });
-  // }
+  constructor(private gitsearchService: GitsearchService) {
+    this.gitsearchService.getUser().subscribe(user => {
+      console.log(user);
+      this.user = user;
+    });
+    this.gitsearchService.getRepos().subscribe(repos => {
+      console.log(repos);
+      this.repos = repos;
+    });
+  }
 
   findUser() {
     this.gitsearchService.updateUser(this.username);
