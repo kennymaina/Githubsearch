@@ -1,7 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
-body{
-    /* background-image: url(https://slm-assets1.secondlife.com/assets/4850457/view_large/Pink%20seas%20background.jpg?1325514881); */
-    background-size: cover;
+/* body{
+        background-size: cover;
     background-repeat: no-repeat;
     background-color: rgb(168, 63, 63);
-}
+} */
+
+
+@import "~bootstrap/dist/css/bootstrap.css"
