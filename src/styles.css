@@ -1,9 +1,2 @@
 /* You can add global styles to this file, and also import other style files */
-/* body{
-        background-size: cover;
-    background-repeat: no-repeat;
-    background-color: rgb(168, 63, 63);
-} */
-
-
 @import "~bootstrap/dist/css/bootstrap.css"
